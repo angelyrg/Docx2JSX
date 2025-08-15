@@ -60,6 +60,13 @@ src/
 
 ---
 
+---
+
+## 🧪 Demo en línea
+
+🔗 [Demo en línea](https://docx2jsx.vercel.app/)
+
+---
 
 ## 🙌 Contribuciones
 
