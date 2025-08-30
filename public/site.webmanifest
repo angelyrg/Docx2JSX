@@ -1,0 +1,18 @@
+{
+  "name": "Docx2JSX",
+  "short_name": "Docx2JSX",
+  "description": "Convert Microsoft Word (.docx) documents into React JSX components, perfect for legal documents, policies, contracts, manuals, and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
