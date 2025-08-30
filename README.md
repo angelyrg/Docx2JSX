@@ -1,86 +1,78 @@
 # Docx2JSX
 
-🎯 **Docx2JSX** es una herramienta web para convertir archivos `.docx` (Microsoft Word) en código HTML/JSX que puede integrarse fácilmente en proyectos React.
+🎯 **Docx2JSX** is a web tool to convert `.docx` (Microsoft Word) files into clean HTML/JSX code that can be easily integrated into React projects.  
 
-Ideal para importar contenido largo como **términos y condiciones**, políticas, contratos, documentación, etc., conservando el formato básico y la estructura.
+It’s ideal for importing structured content such as **Terms & Conditions**, Privacy Policies, contracts, documentation, manuals, and more — while preserving the basic formatting and structure.  
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-- ✅ Soporte para archivos `.docx` generados en Microsoft Word.
-- ✅ Conversión limpia usando [Mammoth.js](https://github.com/mwilliamson/mammoth.js).
-- ✅ Previsualización instantánea del contenido.
-- ✅ Botón para copiar el código generado.
-- ✅ Alternar entre **formato plano** y **formato legible (indented)**.
-- ✅ Interfaz simple, sin dependencias pesadas.
+- ✅ Support for `.docx` files created in Microsoft Word.  
+- ✅ Clean conversion powered by [Mammoth.js](https://github.com/mwilliamson/mammoth.js).  
+- ✅ Instant preview of the converted content.  
+- ✅ One-click button to copy the generated code.  
+- ✅ Toggle between **plain output** and **formatted (indented)** code.  
+- ✅ Simple UI, lightweight, with no heavy dependencies.  
 
+---
 
-## 🚀 Cómo usar localmente
+## 🚀 Run locally
 
-### 1. Clona el repositorio
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/angelyrg/Docx2JSX
 cd docx2jsx
 ```
 
-### 2. Instala las dependencias
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Ejecuta la app
+### 3. Start the app
 
 ```bash
 npm run dev
 ```
 
-Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🧰 Tecnologías usadas
+## 🧰 Technologies used
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Mammoth.js](https://github.com/mwilliamson/mammoth.js)
 
----
-
-## 🗂 Estructura del proyecto
-
-```
-src/
-├── App.jsx         # Lógica principal y UI
-├── main.jsx        # Punto de entrada
-└── index.css       # Estilos globales
-```
 
 ---
 
 ---
 
-## 🧪 Demo en línea
+## 🧪 Live demo
 
-🔗 [Demo en línea](https://docx2jsx.vercel.app/)
+🔗 [Live demo](https://docx2jsx.vercel.app/)
 
 ---
 
-## 🙌 Contribuciones
+## 🙌 Contributions
 
-¡Las contribuciones son bienvenidas!  
-Puedes abrir issues, sugerencias o pull requests para mejorar esta herramienta.
+Contributions are welcome!
+You can open issues, suggestions, or pull requests to help improve this tool.
 
 ---
 
 ## ✍ Autor
 
-Creado por [Angel Yaranga](https://github.com/angelyrg)
+Created by [Angel Yaranga](https://github.com/angelyrg)
 
 ---
 
-## 📌 Nota
+## 📌 Note
 
-Esta herramienta no incluye estilos avanzados ni conversión de estilos complejos (colores, márgenes, fuentes). Está enfocada en una conversión **estructural limpia**, ideal para texto legal o contenido estático.
+This tool does not include advanced styles or complex formatting (colors, margins, fonts).
+It focuses on a **clean structural** conversion, making it ideal for legal documents and other static content.
